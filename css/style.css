@@ -5,7 +5,7 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
+svg{pointer-events: none}
 
 .layout_padding {
   padding: 90px 0;
@@ -32,8 +32,13 @@ body {
 }
 
 h1,
-h2 {
+h2{
   font-family: 'Dancing Script', cursive;
+}
+
+th {
+  font-family: 'Dancing Script', cursive;
+  font-size:x-large;
 }
 
 .heading_container {
@@ -166,8 +171,12 @@ a:focus {
   padding-left: 18%;
 }
 
+#cargando{
+  display: none;
+}
+
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 5px 20px;
+  padding: 5px 10px;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
