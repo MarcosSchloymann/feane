@@ -1,0 +1,21 @@
+h1{
+    padding: 10px;
+}
+
+.bor{
+    border: solid 2px;
+    padding: 10px;
+    height: auto;
+}
+
+img{
+    padding-top: 10%;
+    height: 60%;
+
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
